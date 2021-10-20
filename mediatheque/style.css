@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Ubuntu:wght@300&display=swap');
+
+.ubuntu {
+    font-family: Ubuntu, serif;
+}
+
+.italiana {
+    font-family: Italiana, serif;
+}
+
+.navColor {
+    background: #505050;
+    font-family:'Ubuntu', serif;
+    box-shadow: 1px 2px 8px rgba(255, 255, 255, 0.50);
+    z-index: 100;
+}
+
+.navColor .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.navColor .nav-link:hover {
+    padding-bottom: 10px;
+    border-bottom-color: #fff;
+}
+
+.togglerColor {
+    background: rgb(170, 170, 170);
+}
+
+.banner {
+    background-image: url(img/prague.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:600px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.myBackground {
+    background: wheat;
+}
+
+.info {
+    background: cornsilk;
+}
+
+@media screen  and (min-width: 576px) and (max-width: 992px) {
+  .carousel-item img {
+      height: 500px;
+  }   
+}
+
+.footer {
+    background-image: url(img/bookcases.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px;  
+}
+
